@@ -1,0 +1,15 @@
+[package]
+name = "NFT-Dynamic-Profile-Cards"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xca65292e84cbfd9fc2015b161e6cb32af74f3f45ea3105bf8f6f8f5c028d93c6"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
